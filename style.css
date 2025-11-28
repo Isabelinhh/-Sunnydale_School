@@ -1,0 +1,52 @@
+/* Fundo geral */
+body {
+    background-color: #cfe9ff; /* azul bebê */
+    background-image: url("img/escola.jpg"); /* coloque o caminho correto da imagem aqui */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Caixa para deixar o conteúdo legível */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* fundo branco translúcido */
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #003b7a;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+h2 {
+    color: #004f9e;
+    margin-top: 25px;
+    border-left: 6px solid #004f9e;
+    padding-left: 10px;
+}
+
+/* Texto geral */
+p, li {
+    font-size: 18px;
+    color: #002244;
+    line-height: 1.6;
+}
+
+li {
+    margin-left: 20px;
+}
+
+/* Ajuste para lista */
+ul {
+    padding-left: 20px;
+}
